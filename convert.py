@@ -4,9 +4,9 @@ __author__ = 'alicia.williams'
 # convert.py
 #
 # This program converts temperature from Fahrenheit to Celsius.
-
-F = eval(input("Please enter a temperature in Fahrenheit: "))
-
-C = (F-32) * 5 / 9
-
-print("The temperature", F, "in Fahrenheit is equal to", C, "Celsius")
+def main():
+    F = eval(input("Please enter a temperature in Fahrenheit: "))
+    C = (F-32) * 5 / 9
+    print("The temperature", F, "in Fahrenheit is equal to", C, "Celsius")
+    
+main ()
